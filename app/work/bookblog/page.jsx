@@ -1,10 +1,103 @@
 import React from "react";
+import Image from "next/image";
+import Flippo from "../../../public/Group 34.png";
+import Card from '../../components/Card';
 
 const BookBlog = () => {
     return (
-        <div>
-            <h1>Book</h1>
-
+        <div className="container-fluid">
+            <div className="flex flex-col md:flex-row gap-2 md:h-[800px]">
+                <div className="border-2 md:w-1/2 flex flex-col justify-center p-5">
+                    <div className="">
+                        <h1 className="text-5xl md:text-7xl text-bluegreen">Book Blog</h1>
+                        <div className="w-28"><hr className="h-2 bg-bluegreen"/> </div>
+                        <div>
+                            <p className="md:text-base lg:text-xl xl:text-3xl text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative md:w-8/12 bg-bluegreen md:bg-transparent  border-2 flex justify-center md:items-center md:justify-normal ">
+                    <div className="border-8 z-40">
+                        <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                    </div>
+                </div>
+                <div className="absolute  md:w-1/2 inset-x-0 ml-auto  md:h-[800px] bg-bluegreen">
+                </div>
+            </div>
+            <div className="bg-yellow">
+                <div className="border-2 md:w-1/2 flex flex-col justify-center p-5">
+                    <div className="">
+                        <h1 className="text-5xl md:text-7xl text-black">And Their was a Great PERN!</h1>
+                        <div className="w-28"><hr className="h-2 bg-black"/> </div>
+                        <div>
+                            <p className="md:text-base lg:text-xl xl:text-3xl text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4">
+                <div className="bg-bluegreen text-white text-2xl">
+                    <Card  title="P" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?"/>
+                </div>
+                <div className="bg-moreblue text-white text-2xl">
+                    <Card  title="E" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?"/>
+                </div>
+                <div className="bg-yellow text-2xl">
+                    <Card  title="R" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?"/>
+                </div>
+                <div className="bg-orange text-white text-2xl">
+                    <Card  title="N" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?"/>
+                </div>
+            </div>
+            <div>
+                <div className="flex flex-col md:flex-row gap-2 md:h-[800px]">
+                    <div className="border-2 md:w-1/2 flex flex-col justify-center p-5">
+                        <div className="">
+                            <h1 className="text-5xl md:text-7xl text-bluegreen">Postgres</h1>
+                            <div className="w-28"><hr className="h-2 bg-bluegreen"/> </div>
+                            <div>
+                                <p className="md:text-base lg:text-xl xl:text-3xl text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="relative md:w-8/12  border-2 flex justify-center md:items-center md:justify-normal ">
+                        <div className=" flex flex-col gap-3 border-8 z-40">
+                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className="grid grid-cols-3">
+                
+                    <div className="">
+                        <h3 className="text-5xl md:text-7xl text-bluegreen">Express and NodeJS</h3>
+                        <div className="w-28"><hr className="h-2 bg-bluegreen"/> </div>
+                        <div>
+                            <p className="md:text-base lg:text-xl xl:text-3xl text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+                        </div>
+                    </div>
+                    <div className="col-span-2">
+                        <Image src={Flippo} className=" mx-auto" alt="Project name" />
+                    </div>
+                    <div>
+                        <Image src={Flippo} className=" mx-auto" alt="Project name" />
+                    </div>
+                    <div className=" border-2 col-span-2">
+                        <div className="flex  justify-center">
+                            <div className="w-4/6 border-3">
+                                <h3 className="text-center text-xl md:text-5xl text-bluegreen py-4">RESTFUL API</h3>
+                                <div >
+                                    <p className="md:text-base lg:text-xl  text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

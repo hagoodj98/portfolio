@@ -11,7 +11,7 @@ import Flippo from "../public/Group 34.png";
 export default function Home() {
     return (
         <main>
-            <div className="mb-40 container-fluid ">
+            <div className="mb-40  ">
               <div className=" relative w-full border-2  ">
                 <Image src={background}  alt="this is a background"/>
                 <div className=" grid md:grid-cols-2  absolute top-0">
