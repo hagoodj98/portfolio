@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,9 +9,30 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'bluegreen': '#24a3bf',
+        'moreblue': '#158fbf',
+        'orange': '#f29544',
+        'yellow': '#f2c53d',
+        'sortwhite': '#F4F8F8'
       },
+      animation: {
+        'rightleft': 'righttoleft 10s linear infinite',
+        'leftright':'lefttoright 10s linear infinite'
+      },
+      keyframes: {
+        righttoleft: {
+          '0%': {transform: 'translateX(0%)'},
+          '100%': {transform: 'translateX(-50%)'},
+        },
+        lefttoright: {
+          '0%': {transform: 'translateX(-50%)'},
+          '100%': {transform: 'translateX(0%)'},
+        }
+      },
+      backgroundImage: {
+        "footer-background": "url('../public/Vector 16.svg')",
+      },
+
     },
   },
   plugins: [],

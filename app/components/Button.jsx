@@ -3,10 +3,12 @@
 import React from 'react'
 import Button from '@mui/material/Button';
 
-const ButtonReveal = () => {
+const ButtonReveal = (props) => {
+  console.log(props);
+  
   return (
     <div>
-      <Button variant="outlined">Primary</Button>
+      <Button  className='bg-orange text-white' >{props.text}</Button>
     </div>
   )
 }
