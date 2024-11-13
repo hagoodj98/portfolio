@@ -11,11 +11,11 @@ import Flippo from "../public/Group 34.png";
 export default function Home() {
     return (
         <main>
-            <div className="mb-40  ">
-              <div className=" relative w-full border-2  ">
+            <div className="mb-40">
+              <div className=" relative w-full border-2">
                 <Image src={background}  alt="this is a background"/>
                 <div className=" grid md:grid-cols-2  absolute top-0">
-                  <div >
+                  <div>
                     <div>
                       <Image src={me} alt="this is me"/>
                     </div>
@@ -26,7 +26,6 @@ export default function Home() {
                       <p className="md:text-base lg:text-xl xl:text-3xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
                       <Button text="Learn More"/>
                     </div>
-                    
                   </div>
                 </div>
               </div>
