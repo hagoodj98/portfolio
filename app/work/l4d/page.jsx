@@ -2,8 +2,17 @@ import React from "react";
 import Image from "next/image";
 import Flippo from "../../../public/Group 34.png";
 import SmallCard from '../../components/SmallCard';
+import Carousel from "@/app/components/Carousel";
+import  infoData  from "../../components/datai";
+import repsonsive from '../../../public/images.png';
+import Video from '../../components/Video';
+
 
  function Left4Dead () {
+    const intialwireArray = infoData.initialLeft4Dead;
+    const middlewireArray = infoData.middleLeft4Dead;
+    const finalwireArray = infoData.finalLeft4Dead;
+
     return (
         <div>
             <div className="flex flex-col md:flex-row gap-2 md:h-[800px]">
@@ -41,7 +50,44 @@ import SmallCard from '../../components/SmallCard';
                 </div>
             </div>
             <div>
-                
+                <h3 className="text-5xl md:text-4xl md:my-24 text-black">React</h3>
+                <div className="flex flex-col md:flex-row border-2 h-[600px]">
+                    <div className="bg-yellow md:w-4/12 p-4 md:p-3">
+                        <h3 className="text-5xl md:text-4xl md:my-24 text-black">Initial Wireframing</h3>
+                        <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    </div>
+                    <div className='md:w-8/12 my-auto '>
+                        <Carousel wireframeslides = {intialwireArray}/>
+                    </div>
+                </div>
+                <div className="flex flex-col md:flex-row-reverse my-72 border-2 h-[600px]">
+                    <div className="bg-yellow md:w-4/12  p-4 md:p-3">
+                        <h3 className="text-5xl md:text-4xl md:my-24 text-black">Refined Wireframing</h3>
+                        <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    </div>
+                    <div className='md:w-8/12 my-auto '>
+                        <Carousel wireframeslides = {middlewireArray}/>
+                    </div>
+                </div>
+                <div className="flex flex-col md:flex-row border-2 h-[600px]">
+                    <div className="bg-yellow md:w-4/12 p-4 md:p-3">
+                        <h3 className="text-5xl md:text-4xl md:my-24 text-black">Final Wireframing</h3>
+                        <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    </div>
+                    <div className='md:w-8/12 my-auto '>
+                        <Carousel wireframeslides={finalwireArray}/>
+                    </div>
+                </div>
+            </div>
+            <div className="my-56 sm:my-44">
+                <div className=" border-2">
+                    <Image src={repsonsive} className=" mx-auto" alt="Project name" />
+                </div>
+            </div>
+            <div className="h-96 border-2">
+                <div className="m-auto w-[300px] md:w-[800px] border-2 h-full ">
+                    <Video />video
+                </div>
             </div>
         </div>
     )

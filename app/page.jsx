@@ -22,7 +22,7 @@ export default function Home() {
                   </div>
                   <div className="p-6 md:p-5 lg:p-10 xl:p-20  sm:max-w-96 lg:max-w-none -mt-16 sm:-mt-48  md:mt-0 bg-moreblue md:bg-transparent">
                     <div>
-                      <h1 className="text-5xl md:text-7xl text-white">Portfilio</h1>
+                      <h1 className="text-4xl md:text-6xl text-white">My Portfilio</h1>
                       <p className="md:text-base lg:text-xl xl:text-3xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
                       <Button text="Learn More"/>
                     </div>

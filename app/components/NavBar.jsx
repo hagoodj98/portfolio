@@ -8,14 +8,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Link from 'next/link'
 
 const NavBar = () => {
+
   return (
       <Navbar expand="lg" className="bg-body-tertiary justify-content">
         <Container>
-          <Navbar.Brand  href="#">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand  href="/">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Work" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/work/bookblog">Book Blog</NavDropdown.Item>
                 <NavDropdown.Item href="/work/l4d">GameSite</NavDropdown.Item>
@@ -25,7 +26,7 @@ const NavBar = () => {
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="">Separated link</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link  href="/work">Music</Nav.Link>
+              <Nav.Link  href="/music">Music</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

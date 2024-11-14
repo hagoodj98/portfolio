@@ -5,8 +5,15 @@ import Card from '../../components/Card';
 import Carousel from "@/app/components/Carousel";
 import repsonsive from '../../../public/images.png'
 import Video from '../../components/Video';
+import  infoData  from "../../components/datai";
+
 
 const BookBlog = () => {
+    const intialwireArray = infoData.bookInitial;
+    const middlewireArray = infoData.bookMiddle;
+    const finalwireArray = infoData.bookFinal
+    
+    
     return (
         <div className="container-fluid">
             <div className="flex flex-col md:flex-row gap-2 md:h-[800px]">
@@ -117,16 +124,16 @@ const BookBlog = () => {
                         <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
                     </div>
                     <div className='md:w-8/12 my-auto '>
-                        <Carousel />
+                        <Carousel wireframeslides = {intialwireArray}/>
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row-reverse border-2 h-[600px]">
-                    <div className="bg-yellow md:w-4/12 p-4 md:p-3">
+                <div className="flex flex-col md:flex-row-reverse my-72 border-2 h-[600px]">
+                    <div className="bg-yellow md:w-4/12  p-4 md:p-3">
                         <h3 className="text-5xl md:text-4xl md:my-24 text-black">Refined Wireframing</h3>
                         <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
                     </div>
                     <div className='md:w-8/12 my-auto '>
-                        <Carousel />
+                        <Carousel wireframeslides = {middlewireArray}/>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row border-2 h-[600px]">
@@ -135,7 +142,7 @@ const BookBlog = () => {
                         <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
                     </div>
                     <div className='md:w-8/12 my-auto '>
-                        <Carousel />
+                        <Carousel wireframeslides={finalwireArray}/>
                     </div>
                 </div>
             </div>
@@ -145,7 +152,7 @@ const BookBlog = () => {
                 </div>
             </div>
             <div className="h-96 border-2">
-                <div className="m-auto w-[800px] border-2 h-full ">
+                <div className="m-auto w-[300px] md:w-[800px] border-2 h-full ">
                     <Video />video
                 </div>
             </div>
