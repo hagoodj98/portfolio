@@ -286,18 +286,10 @@ var storyBoarding = [
     {
         id: 1,
         subtitle: "final croc ",
-        caption: "this is the caption"
+        caption: "this is the caption",
+        image: "/flippo.png"
     },
-    {
-        id: 2,
-        subtitle: "final croc ",
-        caption: "this is the caption"
-    },
-    {
-        id: 3,
-        subtitle: " final croc",
-        caption: "this is the caption"
-    },
+    
 ];
 
 export default { bookInitial, bookMiddle, bookFinal, initialLeft4Dead, middleLeft4Dead, finalLeft4Dead, initialCroc, middleCroc, finalCroc, initialRiddle, finalRiddle, storyBoarding};
