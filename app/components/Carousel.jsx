@@ -8,7 +8,6 @@ import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 
 const CarouselControlled = (props) => {
-    
 
   return (
     <>
@@ -16,7 +15,7 @@ const CarouselControlled = (props) => {
             {
                 props.wireframeslides?.map(piece => (
                         <Carousel.Item key={piece.id} className=' border-2 mt-11 h-[500px]'>
-                            <Image src={Flippo} className='mx-auto mt-9'  alt="nothing" text="First slide" />
+                            <Image src={piece.image} width= '500' height='100' className='mx-auto mt-9'  alt="nothing" text="First slide" />
                             <Carousel.Caption className='absolute bottom-1'>
                                 <h3 className='text-black'>{piece.subtitle}</h3>
                                 <p className='text-black'>{piece.caption}</p>

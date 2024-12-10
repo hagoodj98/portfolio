@@ -3,10 +3,9 @@ import Image from "next/image";
 import Flippo from "../../../public/Group 34.png";
 import Card from '../../components/Card';
 import Carousel from "@/app/components/Carousel";
-import repsonsive from '../../../public/images.png'
+import repsonsive from '../../../public/book notes.png'
 import Video from '../../components/Video';
 import  infoData  from "../../components/datai";
-
 
 const BookBlog = () => {
     const intialwireArray = infoData.bookInitial;
@@ -151,9 +150,11 @@ const BookBlog = () => {
                     <Image src={repsonsive} className=" mx-auto" alt="Project name" />
                 </div>
             </div>
-            <div className="h-96 border-2">
-                <div className="m-auto w-[300px] md:w-[800px] border-2 h-full ">
-                    <Video />video
+            <div className="h-auto border-2 b">
+                <div className="m-auto  md:w-[800px] border-2 h-full ">
+                    
+                   <Video srclink='../video/booknotesfinalVID.mp4' /> 
+                   
                 </div>
             </div>
         </div>

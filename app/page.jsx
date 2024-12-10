@@ -14,7 +14,6 @@ export default function Home() {
             <div className="mb-40">
               <div className=" relative w-full border-2">
                 <Image src={background}  alt="this is a background"/>
-                <div className=" grid md:grid-cols-2  absolute top-0">
                   <div>
                     <div>
                       <Image src={me} alt="this is me"/>
@@ -27,7 +26,6 @@ export default function Home() {
                       <Button text="Learn More"/>
                     </div>
                   </div>
-                </div>
               </div>
             </div>
             <div className=" relative grid md:grid-cols-3 p-10 mt-[500px] md:mt-[10px] bg-gradient-to-t from-moreblue to-bluegreen md:h-auto ">

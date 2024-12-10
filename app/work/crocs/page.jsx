@@ -3,7 +3,7 @@ import Carousel from "@/app/components/Carousel";
 import  infoData  from "../../components/datai";
 import Image from "next/image";
 import Flippo from "../../../public/Group 34.png";
-import repsonsive from '../../../public/images.png';
+import repsonsive from '../../../public/crocs.png';
 import Video from '../../components/Video';
  function Crocs () {
     const intialwireArray = infoData.initialCroc;
@@ -73,9 +73,9 @@ import Video from '../../components/Video';
                     <Image src={repsonsive} className=" mx-auto" alt="Project name" />
                 </div>
             </div>
-            <div className="h-96 border-2">
+            <div className="h-full border-2">
                 <div className="m-auto w-[300px] md:w-[800px] border-2 h-full ">
-                    <Video />video
+                    <Video srclink='../video/crocsfinalVID.mp4'/>
                 </div>
             </div>
         </div>

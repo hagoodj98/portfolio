@@ -21,9 +21,9 @@ import him from "../../../public/Group 34.png";
             <h3>Fun Fact</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis excepturi iure velit ipsa quas minus maiores, asperiores eum ipsam eligendi nesciunt atque voluptatum eveniet tenetur amet. Incidunt ad eos ipsam.</p>
             <p>The Joke goes like this:</p>
-            <div className="h-96 border-2">
+            <div className="h-full border-2">
                 <div className="m-auto w-[300px] md:w-[800px] border-2 h-full ">
-                    <Video />video
+                    <Video srclink='../video/fba1-376a-48c9-8b1a-c3ececf9d855.webm' />
                 </div>
             </div>
         </div>
