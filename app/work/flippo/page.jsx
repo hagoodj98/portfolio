@@ -3,16 +3,19 @@ import Button from "../../components/Button";
 import Carousel from "@/app/components/Carousel";
 import  infoData  from "../../components/datai";
 import Video from '../../components/Video';
+import Character from '../../../public/character.png'
 import Image from "next/image";
-import him from "../../../public/Group 34.png";
+import him from "../../../public/flippo.svg";
 
  function Flippo () {
     const storyBoarding = infoData.storyBoarding;
-
     return (
         <div>
             <h1>Meet Flippo, The Body Builder</h1>
             <Image src={him}/>
+            <div>
+                <Image src={Character}/>
+            </div>
             <div className=" my-72  md:my-5 border-2 h-[600px]">
                 <div className=' my-auto '>
                     <Carousel wireframeslides = {storyBoarding}/>

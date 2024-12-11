@@ -1,5 +1,5 @@
 import React from "react";
-import Flippo from "../../public/Group 34.png";
+import MusicCover from "../../public/GOOD.jpg";
 import Image from "next/image";
 import Button from "../components/Button";
 import Link from "next/link";
@@ -19,7 +19,7 @@ import Link from "next/link";
                 </div>
                 <div className="relative md:w-1/2 bg-bluegreen md:bg-transparent  border-2 flex justify-center md:items-center md:justify-normal ">
                     <div className="border-8 mx-auto">
-                        <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                        <Image src={MusicCover} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
                     </div>
                 </div>
                

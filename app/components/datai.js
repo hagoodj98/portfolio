@@ -287,7 +287,7 @@ var storyBoarding = [
         id: 1,
         subtitle: "final croc ",
         caption: "this is the caption",
-        image: "/flippo.png"
+        image: "/flippostoryboards.png"
     },
     
 ];

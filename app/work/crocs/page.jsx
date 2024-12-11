@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "@/app/components/Carousel";
 import  infoData  from "../../components/datai";
 import Image from "next/image";
+import Mockup from "../../../public/crocsmockup.svg"
 import Flippo from "../../../public/Group 34.png";
 import repsonsive from '../../../public/crocs.png';
 import Video from '../../components/Video';
@@ -24,7 +25,7 @@ import Video from '../../components/Video';
                 </div>
                 <div className="relative md:w-8/12 bg-bluegreen md:bg-transparent  border-2 flex justify-center md:items-center md:justify-normal ">
                     <div className="border-8 z-40">
-                        <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                        <Image src={Mockup} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
                     </div>
                 </div>
                 <div className="absolute  md:w-1/2 inset-x-0 ml-auto  md:h-[800px] bg-bluegreen">

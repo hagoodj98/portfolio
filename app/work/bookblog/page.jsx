@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import Flippo from "../../../public/Group 34.png";
+import Flippo from "../../../public/perndatabaserelationship.png";
+import Database from "../../../public/perndatabase.png";
+import NodeExpress from "../../../public/nodeexpress2.png";
+import NodeExpress2 from "../../../public/nodeexpress2.png";
+import Restful from "../../../public/restfulapi.png";
+import Mockup from "../../../public/booknotesmockup.svg"
+import Restful2 from "../../../public/resfulapi2.png"
 import Card from '../../components/Card';
 import Carousel from "@/app/components/Carousel";
 import repsonsive from '../../../public/book notes.png'
@@ -27,7 +33,7 @@ const BookBlog = () => {
                 </div>
                 <div className="relative md:w-8/12 bg-bluegreen md:bg-transparent  border-2 flex justify-center md:items-center md:justify-normal ">
                     <div className="border-8 z-40">
-                        <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                        <Image src={Mockup} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
                     </div>
                 </div>
                 <div className="absolute  md:w-1/2 inset-x-0 ml-auto  md:h-[800px] bg-bluegreen">
@@ -72,7 +78,7 @@ const BookBlog = () => {
                     <div className="relative md:w-1/2 lg:w-8/12  border-2 flex justify-center md:items-center md:justify-normal ">
                         <div className=" flex flex-col gap-3 border-8 mx-auto z-40">
                             <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
-                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                            <Image src={Database} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
                         </div>
                     </div>
                 </div>
@@ -90,8 +96,8 @@ const BookBlog = () => {
                     </div>
                     <div className="relative md:w-1/2 lg:w-8/12  border-2 flex justify-center md:items-center md:justify-normal ">
                         <div className=" flex flex-col gap-3 border-8 mx-auto z-40">
-                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
-                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                            <Image src={NodeExpress} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                            <Image src={NodeExpress2} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
                         </div>
                     </div>
                 </div>
@@ -109,8 +115,8 @@ const BookBlog = () => {
                     </div>
                     <div className="relative md:w-1/2 lg:w-4/12  border-2 flex justify-center md:items-center md:justify-normal ">
                         <div className=" flex flex-col gap-3 border-8 mx-auto z-40">
-                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
-                            <Image src={Flippo} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                            <Image src={Restful} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
+                            <Image src={Restful2} className="-mt-10 md:mt-0 mx-auto" alt="Project name" />
                         </div>
                     </div>
                 </div>

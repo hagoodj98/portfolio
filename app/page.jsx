@@ -4,9 +4,14 @@ import Image from "next/image";
 import Button from "./components/Button";
 import background from '../public/Vector 12 (4).svg'
 import me from '../public/male-placeholder-image.jpeg'
+import Book from "../public/booknotesmockup.svg"
+import LeftDead from "../public/l4dmockup.svg" 
+import Crocs from "../public/crocsmockup.svg"
+import Riddle from "../public/riddlemockup.svg"
+import Flippo from "../public/flippo.svg";
 import anotherme from '../public/Mask group.png'
+import MusicCover from '../public/Vinyl Record Mockup.jpg'
 import yellowlines from '../public/Group 33.svg'
-import Flippo from "../public/Group 34.png";
 
 export default function Home() {
     return (
@@ -33,25 +38,22 @@ export default function Home() {
                 <h2 className="text-5xl md:text-7xl text-white">About Me</h2>
                 <h3 className="text-white">The One and Only</h3>
                 <p className="text-white lg:text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta laboriosam odit, dolore, sint dicta qui sapiente cum temporibus est rerum expedita fuga eligendi optio! Consectetur amet quaerat doloremque quis ipsa.</p>
-              
               </div>
-              
               <div className="order-first relative w-64 md:w-fit mx-auto md:mr-10">
                 <Image src={anotherme} alt="another photo of me"/>
-                
               </div>
             </div>
             <div className="mt-32">
               <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 w-full border-2">
-                <Image src={Flippo} className="mx-auto" alt="Project name" />
-                <Image src={Flippo} className="mx-auto" alt="Project name" />
+                <Image src={Book} className="mx-auto" alt="Project name" />
+                <Image src={Crocs} className="mx-auto" alt="Project name" />
                 <div className="order-first md:order-none flex justify-center align-middle my-auto">
                     <h2 className="m">Works</h2>
                 </div>
-                <Image src={Flippo} className="mx-auto" alt="Project name" />
-                <Image src={Flippo} className="mx-auto" alt="Project name" />
-                <Image src={Flippo} className="mx-auto" alt="Project name" />
+                <Image src={Riddle} className="mx-auto" alt="Project name" />
+                <Image src={LeftDead} className="mx-auto" alt="Project name" />
                 <div></div>
+                <Image src={MusicCover} className="mx-auto" alt="Project name" />
                 <Image src={Flippo} className="mx-auto" alt="Project name" />
                 <div></div>
               </div>
