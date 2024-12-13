@@ -8,7 +8,7 @@ const ButtonReveal = (props) => {
   
   return (
     <div>
-      <Button  className='bg-orange text-white' >{props.text}</Button>
+      <Button  className='tw-bg-orange tw-text-white' >{props.text}</Button>
     </div>
   )
 }

@@ -16,16 +16,16 @@ import him from "../../../public/flippo.svg";
             <div>
                 <Image src={Character}/>
             </div>
-            <div className=" my-72  md:my-5 border-2 h-[600px]">
-                <div className=' my-auto '>
+            <div className=" tw-my-72  md:tw-my-5 tw-border-2 tw-h-[600px]">
+                <div className=' tw-my-auto '>
                     <Carousel wireframeslides = {storyBoarding}/>
                 </div>
             </div>
             <h3>Fun Fact</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis excepturi iure velit ipsa quas minus maiores, asperiores eum ipsam eligendi nesciunt atque voluptatum eveniet tenetur amet. Incidunt ad eos ipsam.</p>
             <p>The Joke goes like this:</p>
-            <div className="h-full border-2">
-                <div className="m-auto w-[300px] md:w-[800px] border-2 h-full ">
+            <div className="tw-h-full tw-border-2">
+                <div className="tw-m-auto tw-w-[300px] md:tw-w-[800px] tw-border-2 tw-h-full ">
                     <Video srclink='../video/fba1-376a-48c9-8b1a-c3ececf9d855.webm' />
                 </div>
             </div>

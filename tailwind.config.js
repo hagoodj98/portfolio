@@ -6,6 +6,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  prefix: "tw-",
   theme: {
     extend: {
       colors: {
@@ -30,7 +31,7 @@ module.exports = {
         }
       },
       backgroundImage: {
-        "footer-background": "url('../public/Vector 16.svg')",
+        "footer-background": "url('../public/Group 36.svg')",
       },
 
     },

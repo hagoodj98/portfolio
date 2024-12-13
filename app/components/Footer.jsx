@@ -9,26 +9,31 @@ import Link from 'next/link'
 const footer = () => {
   return (
     <main>
-      <div className=" relative flex flex-col justify-center  bg-gradient-to-t from-moreblue to-bluegreen lg:bg-footer-background bg-contain bg-no-repeat bg-right lg:h-[46rem] border-2">
-        <div className='flex flex-col lg:w-1/2 p-4 sm:p-16 max-w-5xl'>
-          <h2 className='text-4xl md:text-4xl lg:text-7xl text-sortwhite  lg:text-moreblue'>Thanks for Visiting</h2>
-          <p className='text-base lg:text-2xl text-sortwhite lg:text-black'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita hic reiciendis explicabo corporis, praesentium nostrum! Voluptates, earum maxime quam odit rem elige</p>
+      
+      <div className="tw-container tw-mx-auto tw-flex tw-flex-col tw-justify-center tw-items-center  lg:tw-h-[500px] ">
+        <div className='tw-flex tw-flex-col tw-items-center tw-p-4 sm:tw-p-16 tw-max-w-5xl'>
+          <h2 className='tw-text-4xl md:tw-text-4xl lg:tw-text-7xl tw-text-moreblue'>Thanks for Visiting</h2>
+          <p className='tw-text-base tw-text-center lg:tw-text-2xl '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita hic reiciendis explicabo corporis, praesentium nostrum! Voluptates, earum maxime quam odit rem elige</p>
           <div>
-          <a href="mailto:west00brook@gmail.com"><Button text="Contact Me" /></a>
+            <a href="mailto:west00brook@gmail.com"><Button text="Contact Me" /></a>
           </div>
         </div>
+        
       </div>
-      <div className='container'>
-        <footer className='  flex flex-wrap lg:justify-between  py-3  '>
-          <p >©  2024 Copyright by Jaiquez. All rights reversed</p>
-          <ul className='flex gap-3 '>
-            <li><Link className='text-lg no-underline text-black' href='#'>home</Link></li>
-            <li><Link className='text-lg no-underline text-black'  href='#'>home</Link></li>
-            <li><Link className='text-lg no-underline text-black'  href='#'>home</Link></li>
-          </ul>
-          <hr />
-        </footer>
+      <div className='tw-bg-bluegreen'>
+        <div className='tw-container tw-mx-auto tw-flex tw-justify-center '>
+          <footer className='tw-w-4/5 tw-mx-auto  tw-flex tw-flex-wrap tw-justify-center lg:tw-justify-between  tw-py-6  '>
+            <p className='tw-text-white'>©  2024 Copyright by Jaiquez. All rights reversed</p>
+            <ul className='tw-flex tw-gap-3 '>
+              <li><Link className='tw-text-lg tw-no-underline tw-text-white' href='#'>home</Link></li>
+              <li><Link className='tw-text-lg tw-no-underline tw-text-white'  href='#'>home</Link></li>
+              <li><Link className='tw-text-lg tw-no-underline tw-text-white'  href='#'>home</Link></li>
+            </ul>
+            <hr />
+          </footer>
+        </div>
       </div>
+     
      
     </main>
   )
