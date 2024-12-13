@@ -166,12 +166,12 @@ const BookBlog = () => {
                     </div>
                 </div>
             </div>
-            <div className="tw-my-56 sm:tw-my-44">
+            <div className="tw-container tw-mx-auto tw-my-56 sm:tw-my-44">
                 <div >
                     <Image src={repsonsive} className=" tw-mx-auto" alt="Project name" />
                 </div>
             </div>
-            <div className="tw-h-auto ">
+            <div className="tw-container tw-mx-auto tw-h-auto ">
                 <div className="tw-m-auto  md:tw-w-[800px] tw-border-2 tw-h-full ">
                    <Video srclink='../video/booknotesfinalVID.mp4' /> 
                 </div>

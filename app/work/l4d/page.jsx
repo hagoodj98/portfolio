@@ -48,7 +48,7 @@ import hash from '../../../public/hashingpassword.png'
                     <Image src={Flippo} className="" alt="Project name" />
                 </div>
             </div>
-            <div className="tw-container tw-mx-auto">
+            <div className="tw-container tw-mx-auto tw-my-20">
                 <div className=" tw-flex tw-flex-col md:tw-flex-row  tw-h-[600px] tw-mt-40 md:tw-mt-0">
                     <div className="tw-bg-yellow md:tw-w-4/12   tw-p-6 tw-py-14 md:tw-p-3">
                         <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Initial Wireframing</h3>
@@ -88,7 +88,7 @@ import hash from '../../../public/hashingpassword.png'
                             </div>
                             <div className="tw-w-1/2">
                                 <Image src={password}/>
-                                <br />
+                                
                                 <Image src={hash} />
                             </div>
                         </div>
@@ -104,10 +104,9 @@ import hash from '../../../public/hashingpassword.png'
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div className="tw-my-56 sm:tw-my-44">
-                <div className=" tw-border-2">
+                <div >
                     <Image src={responsive} className=" tw-mx-auto" alt="Project name" />
                 </div>
             </div>
