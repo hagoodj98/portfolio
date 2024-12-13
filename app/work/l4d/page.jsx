@@ -8,7 +8,7 @@ import  infoData  from "../../components/datai";
 import password from '../../../public/forumpasswordfeature.png';
 import responsive from '../../../public/l4d.png'
 import Video from '../../components/Video';
-
+import hash from '../../../public/hashingpassword.png'
 
  function Left4Dead () {
     const intialwireArray = infoData.initialLeft4Dead;
@@ -78,20 +78,33 @@ import Video from '../../components/Video';
                 </div>
             </div>
             <div className="tw-bg-gradient-to-r tw-from-moreblue tw-to-bluegreen  tw-mt-40 md:tw-mt-0">
-                <h3 className=" tw-text-5xl tw-text-center tw-p-2 tw-text-white">Key Features</h3>
-                <div className="tw-grid  md:tw-grid-cols-2 tw-gap-3 tw-p-5 ">
-                    <div>
-                        <h3>01</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!</p>
-                        <Image src={password}/>
-                        <h3>02</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!</p>
-                    </div>
-                    <div>
-                      
-                       <Video srclink='../video/L4Dfinalvid.mp4' />
+                <div className="tw-container tw-mx-auto">
+                    <h3 className=" tw-text-5xl  tw-text-center tw-p-2 tw-text-white">Key Features</h3>
+                    <div className="tw-grid tw-grid-cols-1   tw-gap-3 tw-p-5 ">
+                        <div className="tw-flex tw-items-center">
+                            <div className="tw-w-1/2">
+                                <h3 className="tw-text-white">Password Security</h3>
+                                <p className="tw-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!</p>
+                            </div>
+                            <div className="tw-w-1/2">
+                                <Image src={password}/>
+                                <br />
+                                <Image src={hash} />
+                            </div>
+                        </div>
+                        <div className="tw-flex">
+                            <div className="tw-w-1/2">
+                                <h3 className="tw-text-white">Sessions and cookies</h3>
+                                <p className="tw-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!</p>
+                            </div>
+                            <div className="tw-w-1/2 tw-flex tw-items-center">
+                                <Video srclink='../video/cookie_session.webm' />
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </div>
             <div className="tw-my-56 sm:tw-my-44">
                 <div className=" tw-border-2">
