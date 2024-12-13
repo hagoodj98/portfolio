@@ -5,7 +5,8 @@ import SmallCard from '../../components/SmallCard';
 import Mockup from "../../../public/l4dmockup.svg" 
 import Carousel from "@/app/components/Carousel";
 import  infoData  from "../../components/datai";
-import repsonsive from '../../../public/l4d.png';
+import password from '../../../public/forumpasswordfeature.png';
+import responsive from '../../../public/l4d.png'
 import Video from '../../components/Video';
 
 
@@ -15,76 +16,90 @@ import Video from '../../components/Video';
     const finalwireArray = infoData.finalLeft4Dead;
 
     return (
-        <div>
-            <div className="tw-flex tw-flex-col md:tw-flex-row tw-gap-2 md:tw-h-[800px]">
-                <div className="tw-border-2 md:tw-w-1/2 tw-flex tw-flex-col tw-justify-center tw-p-5">
-                    <div className="">
-                        <h1 className="tw-text-5xl md:tw-text-7xl tw-text-bluegreen">Redesign Gaming Site</h1>
-                        <div className="tw-w-28"><hr className="tw-h-2 tw-bg-bluegreen"/> </div>
-                        <div>
-                            <p className="md:tw-text-base lg:tw-text-xl xl:tw-text-3xl tw-text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+        <div className="tw-py-10">
+            <div className=" tw-relative">
+                <div className="tw-container tw-mx-auto tw-flex tw-flex-col md:tw-flex-row tw-gap-2 md:tw-h-[800px]">
+                    <div className="tw-border-2 md:tw-w-1/2 tw-flex tw-flex-col tw-justify-center tw-p-5">
+                        <div className="">
+                            <h1 className="tw-text-5xl md:tw-text-7xl tw-text-bluegreen">Redesign Gaming Site</h1>
+                            <div className="tw-w-28"><hr className="tw-h-2 tw-bg-bluegreen"/> </div>
+                            <div>
+                                <p className="md:tw-text-base lg:tw-text-xl xl:tw-text-3xl tw-text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae consequuntur harum. Quia perspiciatis adipisci, minus fugit minima nemo eos unde suscipit ipsum, cumque, distinctio qui dolorum amet ut illum?</p>
+                            </div>
                         </div>
                     </div>
+                    <div className="tw-relative md:tw-w-8/12  tw-flex tw-justify-center md:tw-items-center md:tw-justify-normal ">
+                        <div className=" tw-z-40">
+                            <Image src={Mockup} className="tw--mt-10 md:tw-mt-0 tw-mx-auto" alt="Project name" />
+                        </div>
+                    </div>
+                
                 </div>
-                <div className="tw-relative md:tw-w-8/12 tw-bg-bluegreen md:tw-bg-transparent  tw-border-2 tw-flex tw-justify-center md:tw-items-center md:tw-justify-normal ">
-                    <div className="tw-border-8 tw-z-40">
-                        <Image src={Mockup} className="tw--mt-10 md:tw-mt-0 tw-mx-auto" alt="Project name" />
+                <div className="tw-absolute  -tw-z-20 tw-h-96  md:tw-w-1/2 tw-inset-x-0 tw-bottom-0 md:tw-top-0 tw-ml-auto  md:tw-h-[800px] tw-bg-bluegreen">
+                </div>
+            </div>
+            <div className="tw-container tw-mx-auto md:tw-mt-0">
+                <div className="tw-grid  tw-grid-cols-1 gap-3 md:tw-grid-cols-2 tw-justify-items-center">
+                    <div className="tw-py-10 md:tw-py-0 tw-flex tw-items-center">
+                        <h3 className="tw-text-5xl md:tw-text-7xl tw-text-bluegreen">Personas</h3>
+                    </div>
+                    <Image src={Flippo} className=" " alt="Project name" />
+                    <Image src={Flippo} className="" alt="Project name" />
+                    <Image src={Flippo} className="" alt="Project name" />
+                </div>
+            </div>
+            <div className="tw-container tw-mx-auto">
+                <div className=" tw-flex tw-flex-col md:tw-flex-row  tw-h-[600px] tw-mt-40 md:tw-mt-0">
+                    <div className="tw-bg-yellow md:tw-w-4/12   tw-p-6 tw-py-14 md:tw-p-3">
+                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Initial Wireframing</h3>
+                        <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    </div>
+                    <div className='md:tw-w-8/12 tw-my-auto '>
+                        <Carousel wireframeslides = {intialwireArray}/>
                     </div>
                 </div>
-                <div className="tw-absolute  md:tw-w-1/2 tw-inset-x-0 tw-ml-auto  md:tw-h-[800px] tw-bg-bluegreen">
+                <div className="tw-flex tw-flex-col md:tw-flex-row-reverse  tw-h-[600px] tw-mt-40 md:tw-mt-0">
+                    <div className="tw-bg-yellow md:tw-w-4/12   tw-p-6 tw-py-14 md:tw-p-3">
+                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Refined Wireframing</h3>
+                        <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    </div>
+                    <div className='md:tw-w-8/12 tw-my-auto '>
+                        <Carousel wireframeslides = {middlewireArray}/>
+                    </div>
+                </div>
+                <div className="tw-flex tw-flex-col md:tw-flex-row  tw-h-[600px] tw-mt-40 md:tw-mt-0">
+                    <div className="tw-bg-yellow md:tw-w-4/12   tw-p-6 tw-py-14 md:tw-p-3">
+                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Final Wireframing</h3>
+                        <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    </div>
+                    <div className='md:tw-w-8/12 tw-my-auto '>
+                        <Carousel wireframeslides={finalwireArray}/>
+                    </div>
                 </div>
             </div>
-            
-            <div>
-                <div className="tw-grid tw-grid-cols-2 tw-justify-items-center">
-                    <h3>Personas</h3>
-                    <Image src={Flippo} className="tw--mt-10 md:tw-mt-0 " alt="Project name" />
-                    <Image src={Flippo} className="tw--mt-10 md:tw-mt-0 " alt="Project name" />
-                    <Image src={Flippo} className="tw--mt-10 md:tw-mt-0" alt="Project name" />
-                </div>
-            </div>
-            <div className="tw-flex tw-flex-col md:tw-flex-row tw-border-2 tw-h-[600px]">
-                <div className="tw-bg-yellow md:tw-w-4/12 tw-p-4 md:tw-p-3">
-                    <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Initial Wireframing</h3>
-                    <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
-                </div>
-                <div className='md:tw-w-8/12 tw-my-auto '>
-                    <Carousel wireframeslides = {intialwireArray}/>
-                </div>
-            </div>
-            <div className="tw-flex tw-flex-col md:tw-flex-row-reverse tw-my-72 tw-border-2 tw-h-[600px]">
-                <div className="tw-bg-yellow md:tw-w-4/12  tw-p-4 md:tw-p-3">
-                    <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Refined Wireframing</h3>
-                    <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
-                </div>
-                <div className='md:tw-w-8/12 tw-my-auto '>
-                    <Carousel wireframeslides = {middlewireArray}/>
-                </div>
-            </div>
-            <div className="tw-flex tw-flex-col md:tw-flex-row tw-border-2 tw-h-[600px]">
-                <div className="tw-bg-yellow md:tw-w-4/12 tw-p-4 md:tw-p-3">
-                    <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Final Wireframing</h3>
-                    <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
-                </div>
-                <div className='md:tw-w-8/12 tw-my-auto '>
-                    <Carousel wireframeslides={finalwireArray}/>
-                </div>
-            </div>
-        
-            <div className="tw-bg-gradient-to-r tw-from-moreblue tw-to-bluegreen tw-my-10">
+            <div className="tw-bg-gradient-to-r tw-from-moreblue tw-to-bluegreen  tw-mt-40 md:tw-mt-0">
                 <h3 className=" tw-text-5xl tw-text-center tw-p-2 tw-text-white">Key Features</h3>
-                <div className="tw-grid  lg:tw-grid-cols-2 tw-gap-3 tw-p-5 ">
-                    <SmallCard  subtitle="01" smallcardtext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!"/>
-                    <SmallCard  subtitle="02" smallcardtext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!"/>
+                <div className="tw-grid  md:tw-grid-cols-2 tw-gap-3 tw-p-5 ">
+                    <div>
+                        <h3>01</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!</p>
+                        <Image src={password}/>
+                        <h3>02</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa perspiciatis labore cupiditate reiciendis accusamus magnam quas cumque ea sint velit molestias minima, numquam sed beatae blanditiis eligendi, totam mollitia!</p>
+                    </div>
+                    <div>
+                      
+                       <Video srclink='../video/L4Dfinalvid.mp4' />
+                    </div>
                 </div>
             </div>
             <div className="tw-my-56 sm:tw-my-44">
                 <div className=" tw-border-2">
-                    <Image src={repsonsive} className=" tw-mx-auto" alt="Project name" />
+                    <Image src={responsive} className=" tw-mx-auto" alt="Project name" />
                 </div>
             </div>
-            <div className="tw-h-full tw-border-2">
-                <div className="tw-m-auto tw-w-[300px] md:tw-w-[800px] tw-border-2 tw-h-full ">
+            <div className="tw-h-full ">
+                <div className="tw-m-auto  md:tw-w-[800px] tw-border-2 tw-h-full ">
                     <Video srclink='../video/L4Dfinalvid.mp4' />
                 </div>
             </div>
