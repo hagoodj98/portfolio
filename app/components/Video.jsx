@@ -8,7 +8,6 @@ const Video = (props) => {
   
   return (
     <>
-        
         <video width="1020" height="440" controls preload="none">
           <source src={props.srclink} type="video/mp4" />
           <track

@@ -8,10 +8,13 @@ import Image from "next/image";
 import him from "../../../public/flippo.svg";
 import Storyboards from '../../../public/flippostoryboards.png'
 import lightbulb from '../../../public/HUZwDRn.png'
+import ProjectIntro from '../../components/ProjectIntro'
+import ImageZoom from "@/app/components/ImageZoom";
+
  function Flippo () {
     const storyBoarding = infoData.storyBoarding;
     return (
-        <div>
+        <div className="tw-py-10">
             <div className=" tw-relative">
                 <div className="tw-container tw-mx-auto tw-flex tw-flex-col md:tw-flex-row-reverse tw-gap-2 md:tw-h-[800px]">
                     <div className="tw-border-2 md:tw-w-1/2 tw-flex tw-flex-col tw-justify-center tw-p-5">
@@ -24,8 +27,8 @@ import lightbulb from '../../../public/HUZwDRn.png'
                         </div>
                     </div>
                     <div className="tw-relative md:tw-w-8/12  tw-flex tw-justify-center md:tw-items-center md:tw-justify-normal ">
-                        <div className=" tw-z-40">
-                            <Image src={him} className="tw--mt-10 md:tw-mt-0 tw-mx-auto" alt="Flippo himself" />
+                        <div className="">
+                            <ImageZoom src={him} className="tw--mt-10 md:tw-mt-0 tw-mx-auto" alt="Flippo himself" />
                         </div>
                     </div>
                 
@@ -36,12 +39,12 @@ import lightbulb from '../../../public/HUZwDRn.png'
             <div className="tw-container tw-mx-auto">
                 <div className=" tw-my-10">
                     <h2 className="tw-text-end tw-text-2xl md:tw-text-4xl tw-text-bluegreen">.....A character in the making</h2>
-                    <Image src={Character} alt="Flippo from all angles"/>
+                    <ImageZoom src={Character} alt="Flippo from all angles"/>
                 </div>
                 <div className=" tw-mx-auto tw-my-24    ">
                     <div className=' tw-my-auto '>
                         <h2 className="tw-text-2xl md:tw-text-4xl tw-text-bluegreen">StoryBoarding.....</h2>
-                        <Image src={Storyboards} alt="storyboards"/>
+                        <ImageZoom src={Storyboards} alt="storyboards"/>
                     </div>
                 </div>
                 <div className=" tw-mx-auto tw-my-24 tw-w-1/2">
@@ -52,8 +55,8 @@ import lightbulb from '../../../public/HUZwDRn.png'
                     <p className="tw-text-center"><span className="font-semibold">Interesting fact:</span> Flippo parties at least 12 times a week and works out about 15 hours everyday of the week.</p>
                 </div>
                 
-                <div className="tw-container tw-mx-auto  tw-h-full ">
-                    <div className="tw-mx-auto  md:tw-w-[800px] tw-border-2  tw-h-full ">
+                <div className="tw-container tw-mx-auto tw-h-full">
+                    <div className="tw-m-auto  md:tw-w-[800px] tw-border-2 tw-h-full ">
                         <Video srclink='../video/fba1-376a-48c9-8b1a-c3ececf9d855.webm' />
                         <div>
                             <p>The Joke goes like this:</p>

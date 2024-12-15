@@ -5,7 +5,6 @@ import Button from '../components/Button'
 import background from '../../public/Vector 16.svg'
 import Link from 'next/link'
 
-
 const footer = () => {
   return (
     <main>
@@ -21,13 +20,8 @@ const footer = () => {
       </div>
       <div className='tw-bg-bluegreen'>
         <div className='tw-container tw-mx-auto tw-flex tw-justify-center '>
-          <footer className='tw-w-4/5 tw-mx-auto  tw-flex tw-flex-wrap tw-justify-center lg:tw-justify-between  tw-py-6  '>
+          <footer className='  tw-justify-center lg:tw-justify-between  tw-py-6  '>
             <p className='tw-text-white'>©  2024 Copyright by Jaiquez. All rights reversed</p>
-            <ul className='tw-flex tw-gap-3 '>
-              <li><Link className='tw-text-lg tw-no-underline tw-text-white' href='#'>home</Link></li>
-              <li><Link className='tw-text-lg tw-no-underline tw-text-white'  href='#'>home</Link></li>
-              <li><Link className='tw-text-lg tw-no-underline tw-text-white'  href='#'>home</Link></li>
-            </ul>
             <hr />
           </footer>
         </div>

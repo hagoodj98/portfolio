@@ -17,6 +17,8 @@
     "cloudinary-core": "^2.13.1",
     "next": "15.0.2",
     "next-cloudinary": "^6.16.0",
+    "next-image-zoom": "^1.1.7",
+    "photoswipe": "^5.4.4",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-bootstrap": "^2.10.5",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
