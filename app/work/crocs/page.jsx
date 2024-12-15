@@ -6,6 +6,9 @@ import Mockup from "../../../public/crocsmockup.svg"
 import Flippo from "../../../public/Group 34.png";
 import repsonsive from '../../../public/crocs.png';
 import Video from '../../components/Video';
+import persona from '../../../public/persona.svg'
+import personatwo from '../../../public/persona2.svg'
+import personathree from '../../../public/persona3.svg'
  function Crocs () {
     const intialwireArray = infoData.initialCroc;
     const middlewireArray = infoData.middleCroc;
@@ -37,40 +40,40 @@ import Video from '../../components/Video';
                 <div className="tw-absolute  -tw-z-20 tw-h-96  md:tw-w-1/2 tw-inset-x-0 tw-bottom-0 md:tw-top-0 tw-ml-auto  md:tw-h-[800px] tw-bg-bluegreen">
                 </div>
             </div>
-            <div className="tw-container tw-mx-auto md:tw-mt-0">
+            <div className="tw-container tw-mx-auto md:tw-mt-16">
                 <div className="tw-grid  tw-grid-cols-1 gap-3 md:tw-grid-cols-2 tw-justify-items-center">
                     <div className="tw-py-10 md:tw-py-0 tw-flex tw-items-center">
                         <h3 className="tw-text-5xl md:tw-text-7xl tw-text-bluegreen">Personas</h3>
                     </div>
-                    <Image src={Flippo} className=" " alt="Project name" />
-                    <Image src={Flippo} className="" alt="Project name" />
-                    <Image src={Flippo} className="" alt="Project name" />
+                    <Image src={persona} className=" " alt="Project name" />
+                    <Image src={personatwo} className="" alt="Project name" />
+                    <Image src={personathree} className="" alt="Project name" />
                 </div>
             </div>
             <div className="tw-container tw-mx-auto tw-my-20">
             
                 <div className="tw-flex tw-flex-col md:tw-flex-row  tw-h-[600px]">
-                    <div className="tw-bg-yellow md:tw-w-4/12  tw-p-6 tw-py-14 md:tw-p-3">
-                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Initial Wireframing</h3>
-                        <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    <div className="tw-from-moreblue tw-to-bluegreen tw-bg-gradient-to-t md:tw-w-4/12  tw-p-6 tw-py-14 md:tw-p-3">
+                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-white">Initial Wireframing</h3>
+                        <p className="tw-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
                     </div>
                     <div className='md:tw-w-8/12 tw-my-auto '>
                         <Carousel wireframeslides = {intialwireArray}/>
                     </div>
                 </div>
                 <div className="tw-flex tw-flex-col md:tw-flex-row-reverse tw-mt-40 md:tw-mt-0  tw-h-[600px]">
-                    <div className="tw-bg-yellow md:tw-w-4/12   tw-p-6 tw-py-14 md:tw-p-3">
-                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Refined Wireframing</h3>
-                        <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    <div className="tw-from-moreblue tw-to-bluegreen tw-bg-gradient-to-t  md:tw-w-4/12   tw-p-6 tw-py-14 md:tw-p-3">
+                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-white">Refined Wireframing</h3>
+                        <p className="tw-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
                     </div>
                     <div className='md:tw-w-8/12 tw-my-auto '>
                         <Carousel wireframeslides = {middlewireArray}/>
                     </div>
                 </div>
                 <div className="tw-flex tw-flex-col md:tw-flex-row tw-mt-40 md:tw-mt-0   tw-h-[600px]">
-                    <div className="tw-bg-yellow md:tw-w-4/12 tw-p-6 tw-py-14 md:tw-p-3">
-                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-black">Final Wireframing</h3>
-                        <p className="tw-text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
+                    <div className="tw-from-moreblue tw-to-bluegreen tw-bg-gradient-to-t  md:tw-w-4/12 tw-p-6 tw-py-14 md:tw-p-3">
+                        <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-white">Final Wireframing</h3>
+                        <p className="tw-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut hic sapiente voluptatibus accusamus ipsa tenetur, eos impedit saepe exercitationem! Autem debitis dolorem facilis quasi corporis nihil repudiandae facere voluptatem enim.</p>
                     </div>
                     <div className='md:tw-w-8/12 tw-my-auto '>
                         <Carousel wireframeslides = {finalwireArray}/>
