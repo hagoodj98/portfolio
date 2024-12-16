@@ -34,12 +34,12 @@ export default function Home() {
                 </div>
             </div>
             <div className="tw-relative tw-bg-gradient-to-t tw-from-moreblue tw-to-bluegreen tw-mt-16 md:tw-mt-[200px]">
-              <div className="tw-container tw-mx-auto tw-relative tw-grid md:tw-grid-cols-3 tw-p-10 md:tw-mt-[10px] md:tw-h-auto ">
-                <div className=" md:tw-order-first tw-flex tw-flex-col tw-justify-center md:tw-col-span-2 tw-w-full md:tw-w-3/4 md:tw-ml-20">
+              <div className="tw-container tw-mx-auto tw-relative tw-flex tw-flex-col-reverse lg:tw-flex-row  tw-p-10 md:tw-mt-[10px] md:tw-h-auto ">
+                <div className=" tw-flex tw-flex-col tw-py-8 tw-justify-center md:tw-col-span-2 tw-w-full md:tw-w-3/4 md:tw-ml-20">
                   <h2 className="tw-text-3xl md:tw-text-5xl tw-text-white">About Me  </h2>
                   <p className="tw-text-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta laboriosam odit, dolore, sint dicta qui sapiente cum temporibus est rerum expedita fuga eligendi optio! Consectetur amet quaerat doloremque quis ipsa.</p>
                 </div>
-                <div className="tw-order-first tw-relative tw-w-64 md:tw-w-fit tw-mx-auto md:tw-mr-10">
+                <div className=" tw-relative tw-w-64  lg:tw-w-fit tw-mx-auto ">
                   <ImageZoom src={anotherme} alt="another photo of me"/>
                 </div>
                 <Image className="tw-absolute -tw-bottom-40 tw-left-9 md:tw-left-36 tw-w-14 lg:tw-w-16" src={yellowlines} />
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="tw-container tw-mx-auto tw-mt-32">
               <div className="tw-grid sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-3 tw-w-full ">
                 <div className="tw-order-first md:tw-order-none tw-flex tw-justify-center tw-items-center tw-my-auto">
-                    <h2 className="tw-text-3xl md:tw-text-5xl tw-mx-auto tw-py-10 tw-text-moreblue">Works</h2>
+                    <h2 className="tw-text-3xl md:tw-text-5xl tw-mx-auto tw-py-10 tw-text-bluegreen">Works</h2>
                 </div>
                 <div className="tw-h-[390px] tw-group tw-relative tw-overflow-hidden tw-bg-[url('../public/booknotesmockup.svg')] tw-bg-no-repeat tw-bg-center tw-bg-cover">
                   <a href="/work/bookblog">
@@ -103,8 +103,8 @@ export default function Home() {
             <div className="tw-w-1/2 tw-border-2 tw-ml-auto tw--mt-96 tw-h-96 tw-bg-gradient-to-b tw-from-moreblue tw-to-bluegreen"></div>
             <div className=" tw-my-10 tw-overflow-hidden">
               <div className="  tw-whitespace-nowrap tw-p-3">
-                <p className="tw-animate-leftright tw-text-bluegreen tw-text-2xl md:tw-text-3xl lg:tw-text-7xl">I Love Design I Love Code I Love Food I Love Video Games I Love Music I Love Design I Love People I Love Food I Love Family I Love It All I Love Design I Love People I Love Food I Love Music I Love Design I Love People I Love Food I Love Family I Love It All</p>
-                <p className="tw-text-bluegreen tw-text-2xl md:tw-text-3xl lg:tw-text-7xl tw-animate-rightleft">I Love Design I Love People I Love Food  I Love Video Games I Love Music I Love Design I Love People I Love Food I Love Family I Love It All I Love Design I Love People I Love Food I Love Music I Love Design I Love Family I Love It All I Love Food </p>
+                <p className="tw-animate-leftright tw-text-bluegreen tw-text-2xl md:tw-text-3xl lg:tw-text-9xl tw-opacity-25">I Love Design I Love Code I Love Food I Love Video Games I Love Music I Love Design I Love People I Love Food I Love Family I Love It All I Love Design I Love People I Love Food I Love Music I Love Design I Love People I Love Food I Love Family I Love It All</p>
+                <p className="tw-text-bluegreen tw-text-2xl md:tw-text-3xl lg:tw-text-9xl tw-animate-rightleft tw-opacity-25">I Love Design I Love People I Love Food  I Love Video Games I Love Music I Love Design I Love People I Love Food I Love Family I Love It All I Love Design I Love People I Love Food I Love Music I Love Design I Love Family I Love It All I Love Food </p>
             </div>
           </div>
               

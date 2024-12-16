@@ -65,7 +65,9 @@ const BookBlog = () => {
                 </div>
                 <div className="tw-relative  lg:tw-w-8/12  tw-flex tw-justify-center md:tw-items-center md:tw-justify-normal ">
                     <div className="tw-w-full tw-flex tw-flex-col tw-gap-3  tw-mx-auto ">
-                        <ImageZoom src={Flippo} alt="database relationship"/>
+                        <div>
+                            <ImageZoom src={Flippo}   alt="database relationship"/>
+                        </div>
                         <br />
                         <ImageZoom src={Database}  alt="data being sent to the database "/>
                     </div>
@@ -110,7 +112,7 @@ const BookBlog = () => {
                 </div>
             </div>
             <div className="tw-container tw-mx-auto">
-                <h3 className="tw-text-center tw-py-10 md:tw-py-0 tw-text-5xl md:tw-text-7xl md:tw-my-24 tw-text-moreblue">Front-End</h3>
+                <h3 className="tw-text-center tw-py-10 md:tw-py-0 tw-text-5xl md:tw-text-7xl md:tw-my-24 tw-text-bluegreen">Front-End</h3>
                 <div className="tw-flex tw-flex-col md:tw-flex-row  tw-h-[600px]">
                     <div className="tw-from-moreblue tw-to-bluegreen tw-bg-gradient-to-t  md:tw-w-4/12 tw-p-6 tw-py-14 md:tw-p-3">
                         <h3 className="tw-text-5xl md:tw-text-4xl md:tw-my-24 tw-text-white">Initial Wireframing</h3>
