@@ -1,5 +1,10 @@
 
 
+.dropdownmenu {
+    --bs-dropdown-border-radius: var(--bs-border-radius);
+    --bs-dropdown-border-width: var(--bs-border-width);
+}
+
 @media (min-width: 321px) {
     .background{
         background-size: contain; 

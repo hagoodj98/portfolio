@@ -7,7 +7,7 @@ import ImageZoom from "../components/ImageZoom";
  function Music () {
 
     return (
-        <div className="tw-py-10">
+        <div className="tw-py-20">
             <div className=" tw-relative">
                 <div className="tw-container tw-mx-auto tw-flex tw-flex-col md:tw-flex-row-reverse tw-gap-2 md:tw-h-[800px]">
                     <div className="tw-border-2 md:tw-w-1/2 tw-flex tw-flex-col tw-justify-center tw-p-5">

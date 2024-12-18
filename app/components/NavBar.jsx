@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import styles from '../styles/home.module.css'
 
 const NavBar = () => {
 
@@ -24,9 +25,11 @@ const NavBar = () => {
               <Offcanvas.Header closeButton>
               </Offcanvas.Header>
               <Offcanvas.Body>
-              <Nav className="ms-auto">
-              <Nav.Link href="/" className='tw-text-white'>Home</Nav.Link>
-              <NavDropdown  title="Work" id="basic-nav-dropdown">
+              <Nav className="ms-auto" >
+              <Nav.Item >
+                <Nav.Link href="/"  className={styles.link}>Home</Nav.Link>
+              </Nav.Item>
+              <NavDropdown   title="Work" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/work/bookblog">Book Blog</NavDropdown.Item>
                 <NavDropdown.Item href="/work/l4d">GameSite</NavDropdown.Item>
                 <NavDropdown.Item href="/work/crocs">Crocs</NavDropdown.Item>
@@ -34,7 +37,9 @@ const NavBar = () => {
                 <NavDropdown.Item href="/work/flippo">Flippo</NavDropdown.Item>
                 
               </NavDropdown>
-              <Nav.Link  href="/music">Music</Nav.Link>
+              <Nav.Item >
+                <Nav.Link  href="/music">Music</Nav.Link>
+              </Nav.Item>
             </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

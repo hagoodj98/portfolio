@@ -24,7 +24,7 @@ const BookBlog = () => {
     
     
     return (
-        <div className="tw-py-10">
+        <div className="tw-py-20">
             <ProjectIntro projectname='Book Blog' description='sd' srcname={Mockup} />
            
             <div className="tw-bg-yellow tw-mt-28 tw-py-20">
@@ -142,6 +142,8 @@ const BookBlog = () => {
                 </div>
             </div>
             <Responsive repsonsive={repsonsive} />
+            
+
             <div className="tw-container tw-mx-auto tw-h-auto ">
                 <div className="tw-m-auto  md:tw-w-[800px] tw-border-2 tw-h-full ">
                    <Video srclink='../video/booknotesfinalVID.mp4' /> 

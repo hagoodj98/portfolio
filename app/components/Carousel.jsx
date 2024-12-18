@@ -13,7 +13,7 @@ const CarouselControlled = (props) => {
   return (
     <>
         <Carousel indicators={false} prevIcon=
-        { <div className='tw-bg-white tw-rounded-full tw-p-'>
+        { <div className='tw-bg-white tw-rounded-full tw-p-2'>
             <span className=' tw-text-moreblue'><ArrowBackIosRoundedIcon fontSize='medium' /></span>
           </div>
         } nextIcon=

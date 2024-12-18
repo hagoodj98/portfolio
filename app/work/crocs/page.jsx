@@ -23,7 +23,7 @@ import Personas from "@/app/components/Personas";
     
 
     return (
-        <div className="tw-py-10">
+        <div className="tw-py-20">
             <ProjectIntro projectname='The Object' description='sd' srcname={Mockup} />
 
             <Personas persona={persona} personatwo={personatwo} personathree={personathree} />
